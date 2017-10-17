@@ -7,8 +7,8 @@ body {
 	/* instructions ask or this color, but I think that #999 is closer  - color: #777; */
 	color: #999;
 	/* background-image: url(../images/concrete_seamless.png); */
-	background-image: url(../images/bg-grid.png);
-	/* background-color: dark grey; */
+	/* background-image: url(../images/bg-grid.png); */
+	background-color:#616366;
 }
 
 hr {
