@@ -139,8 +139,8 @@
 
    
     <div class="row">
+        <h4>Upload your image</h4>
         <div class="col-lg-6">
-            <h4>Upload your image</h4>
             <form method="post" enctype="multipart/form-data" action="/upload">
                 <div class="col-lg-5">
                     <input type="file" name="thumbnail" width="20%" required accept=".jpg,.png">
@@ -151,13 +151,9 @@
             </form>
         </div>
 
-        <div class="col-lg-4">
-            <p>{{message}}</p>
-        </div>
-
         <div class="col-lg-6">
             <form method="post" enctype="multipart/form-data" action="/getdata">
-                <div class="col-lg-4"><button type="submit">Click to generate data</button></div>
+                <div class="col-lg-10 "><button type="submit" {{flag}}>Click to generate data</button></div>
             </form>
         </div> 
     </div>

@@ -11,7 +11,7 @@ var civilface = require("../models/civilface.js");
 
 router.get("/", function(req, res){
 // call function in models to pull data from mysql, get the newest entry, put it into infoObject, send to handlebarsjs
-    res.render("index");
+    res.render("index", {flag: "disabled"});
 });
 
 
@@ -68,7 +68,7 @@ router.post("/upload", function(req, res){
     // parse the incoming request containing the form data
     form.parse(req);
 
-    res.render("index",{message: "Upload Sucessfull"});
+    res.render("index",{flag: ""});
 
     //encode to base64, save to base64.txt
     
