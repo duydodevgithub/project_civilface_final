@@ -3,7 +3,7 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
-var path = require("path");
+var path = require("path")
 
 // BLH adding this line below temporarily to see if styles show up
 // var path = require("path");
@@ -12,7 +12,7 @@ var path = require("path");
 var app = express();
 
 // Serve static content for the app from the directory in the application directory.
-app.use(express.static(path.join(__dirname,"public")));
+app.use(express.static(path.join(__dirname,"/public")));
 app.use(express.static(path.join(__dirname,"controllers")));
 app.use(express.static(path.join(__dirname,"public/imgupload")));
 

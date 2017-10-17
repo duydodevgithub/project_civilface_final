@@ -1,9 +1,4 @@
-<div class="container col- col-md-12 col-sm-12 col-xs-12">
-    
-   
-<!-- form to upload image -->
-
-<div class="container">
+ <div class="container">
     <div class="jumbotron text-center"><h2>DATA</h2></div>
     <div class="row">
 <!-- response -->
@@ -16,10 +11,10 @@
             <p>Gender: {{gender}}</p>
         </div>
       </div>
+
       <div class="col-lg-4">
         <h4>IMAGE</h4>
         <img src="{{imageURL}}" class="img-thumbnail">
       </div>
     </div>
-</div>
 </div>
